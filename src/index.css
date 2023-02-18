@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Homemade+Apple&family=Prompt&display=swap');
+body{
+  background-color: #C4CAD0;
+}
+  button{
+    color: #191716;
+    background-color: #FFFFFF;
+    font-family: 'Gowun Batang', serif;
+    margin-top: .5rem;
+    font-size: medium;
+}
+button:hover{
+    color: #FFFFFF;
+    background-color: #191716;
+    box-shadow: .25rem .25rem .25rem #FFFFFF;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(.95);
+    outline: #FFFFFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#first_responders {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Black Ops One', cursive !important;
+  margin-top: 5rem !important;
+}
+
+#details_div{
+display: grid;
+  width: 40rem;
+  
+  justify-content: center;
+  margin: 0;
+}
+
+#flag_img{
+  opacity: .3;
+}
+
+#form_div{
+  display: inline-flex;
+}
+
+h1, h2{
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+iframe{
+  width: 15rem;
+
+}
+#layout_container{
+  text-align: center;
+}
+
+
+label, li{
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  ;
+}
+
+#link_container{
+padding-top: 1rem;
+}
+
+#logo{
+  width: 30rem;
+  height: auto;
+}
+
+.menu_and_merch{
+  display: inline-flex;
+}
+
+.nav{
+  font-family: 'Prompt', sans-serif;
+  margin: 1rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+.nav:hover{
+  color: red;
+}
+
+.mySwiper{
+  height: 20rem;
+  margin-top: 2rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: auto;
+}
+
+.swiper-slide img {
+width: auto;
+  height: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: .5rem;
 }
