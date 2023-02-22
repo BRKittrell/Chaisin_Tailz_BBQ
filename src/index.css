@@ -1,7 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Homemade+Apple&family=Prompt&display=swap');
-body{
-  background-color: #C4CAD0;
+html{
+  background-color: #FFFFFF
 }
   button{
     color: #191716;
@@ -21,13 +21,14 @@ button:active{
     outline: #FFFFFF;
 }
 
-#first_responders {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Black Ops One', cursive !important;
-  margin-top: 5rem !important;
+#community_page_img_div{
+display: inline-flex;
+flex-wrap: wrap;
+}
+
+.community_img{
+  width: 15rem;
+  margin: .5rem;
 }
 
 #details_div{
@@ -38,6 +39,16 @@ display: grid;
   margin: 0;
 }
 
+#first_responders {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Black Ops One', cursive !important;
+  margin-top: 5rem !important;
+}
+
+
 #flag_img{
   opacity: .3;
 }
@@ -46,10 +57,20 @@ display: grid;
   display: inline-flex;
 }
 
-h1, h2{
+h1{
   font-family: 'Homemade Apple', cursive;
   margin-top: 1rem;
   margin-bottom: 0;
+  font-size: 2.3rem; 
+  color: red;
+}
+
+h2{
+  font-family: 'Homemade Apple', cursive;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1.7rem;
+  color: red;
 }
 
 iframe{
@@ -61,7 +82,7 @@ iframe{
 }
 
 
-label, li{
+label, li, p{
   margin: 0;
   font-family: 'Prompt', sans-serif;
   ;
@@ -72,10 +93,14 @@ padding-top: 1rem;
 }
 
 #logo{
-  width: 30rem;
+  width: 20rem;
   height: auto;
 }
 
+.mySwiper{
+  height: 20rem;
+  margin-top: 2rem;
+}
 .menu_and_merch{
   display: inline-flex;
 }
@@ -91,9 +116,8 @@ padding-top: 1rem;
   color: red;
 }
 
-.mySwiper{
-  height: 20rem;
-  margin-top: 2rem;
+p{
+  color: red;
 }
 
 .swiper-slide {

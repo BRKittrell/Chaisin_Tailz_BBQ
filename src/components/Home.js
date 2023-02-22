@@ -18,8 +18,10 @@ import Jake from "../images/Jake.JPG"
 import LC_Boil_1 from "../images/LC_Boil_1.jpg"
 import LC_Boil_2 from "../images/LC_Boil_2.jpg"
 import Nachos from "../images/Nachos.png"
+import Night from "../images/Night.jpeg"
 import Rib_Racks from "../images/Rib_Racks.JPG"
 import Ribs from "../images/Ribs.jpeg"
+import Rig from "../images/Rig.jpeg"
 import Smoker from "../images/Smoker.JPG"
 import Together from "../images/Together.JPG"
 
@@ -34,6 +36,7 @@ const Home = () => {
         modules={[Autoplay]}
         className="mySwiper"
       >
+        <SwiperSlide><img src={Rig} alt=''></img></SwiperSlide>
         <SwiperSlide><img src={Brisket} alt=''></img></SwiperSlide>
         <SwiperSlide><img src={Brisket_Cut} alt=''></img></SwiperSlide>
         <SwiperSlide><img src={Together} alt=''></img></SwiperSlide>
@@ -48,6 +51,7 @@ const Home = () => {
         <SwiperSlide><img src={Ribs} alt=''></img></SwiperSlide>
         <SwiperSlide><img src={Nachos} alt=''></img></SwiperSlide>
         <SwiperSlide><img src={Smoker} alt=''></img></SwiperSlide>
+        <SwiperSlide><img src={Night} alt=''></img></SwiperSlide>
       </Swiper>
     </div>
   );

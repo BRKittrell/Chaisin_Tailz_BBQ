@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 //components
+import Booking_Form from "./components/Booking_Form";
 import Catering from "./components/Catering";
 import Community from "./components/Community";
 import Home from "./components/Home";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/merch" element={<Merch />} />
+          <Route path="booking" element={<Booking_Form/>} />
         </Route>
       </Routes>
     </div>

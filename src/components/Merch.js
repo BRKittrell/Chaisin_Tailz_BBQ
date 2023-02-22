@@ -1,7 +1,6 @@
 const Merch = () => {
   return (
     <div className="component_container">
-      <h1>Merch</h1>
       <div className="menu_and_merch">
         <ul>
           <h2>Shirts</h2>

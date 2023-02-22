@@ -17,9 +17,12 @@ const Layout = () => {
         <Link to="/catering" className="nav">Catering</Link>
         <Link to="/community" className="nav">Community</Link>
         <Link to="/merch" className="nav">Merch</Link>
-        <a href="https://www.facebook.com/CasinTailzBBQ" target="_blank" rel="noreferrer" className="nav"><FaFacebookSquare>...</FaFacebookSquare></a>
-        <a href="mailto:chasintailzbbqllc@gmail.com" className="nav"><HiMail>...</HiMail></a>
+        <a href="https://www.facebook.com/CasinTailzBBQ" target="_blank" rel="noreferrer" className="nav">Follow</a>
+        <div>
         <a href="tel:216-347-0704" className="nav">216-347-0704</a>
+        <a href="tel:216-347-0736" className="nav">216-347-0736</a>
+        <a href="mailto:chasintailzbbqllc@gmail.com" className="nav">chasintailzbbqllc@gmail.com</a>
+        </div>
       </nav> 
       <Outlet />
     </div>
